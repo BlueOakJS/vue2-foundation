@@ -9,6 +9,7 @@ import buttonGroup from './buttonGroup';
 import offCanvas from './offCanvas';
 import titleBar from './titleBar';
 import topBar from './topBar';
+import progress from './progress';
 
 export default [
   {
@@ -65,6 +66,14 @@ export default [
     path: '/top-bar',
     components: {
       content: topBar
+    }
+  },
+  {
+    name: 'progress',
+    displayName: 'Progress Bar',
+    path: '/progress',
+    components: {
+      content: progress
     }
   },
 ];
