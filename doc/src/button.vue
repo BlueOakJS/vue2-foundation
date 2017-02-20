@@ -138,7 +138,7 @@ See the [Foundation documentation](http://foundation.zurb.com/sites/docs/button.
 
 |Property|Type|Required|Description
 |---|---|---|---
-|to|String \| Location|No|If this prop is specified, the button will rendered using an `<a>` tag.  If it's not specified, it will be rendered using a `<button>` tag.  The value denotes the target route of the link. When clicked, the value of the to prop will be passed to router.push() internally, so the value can be either a string or a location descriptor object. See <a href="http://router.vuejs.org/en/essentials/navigation.html#routerpushlocation">the vue-router documentation</a> for more details.
+|to|String \| Location|No|If this prop is specified, the button will be rendered using an `<a>` tag.  If it's not specified, it will be rendered using a `<button>` tag.  The value denotes the target route of the link. When clicked, the value of the to prop will be passed to `router.push()` internally, so the value can be either a string or a location descriptor object. See <a href="http://router.vuejs.org/en/essentials/navigation.html#routerpushlocation">the vue-router documentation</a> for more details.
 
 #### Events
 
