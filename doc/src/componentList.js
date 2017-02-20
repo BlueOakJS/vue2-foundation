@@ -10,6 +10,7 @@ import offCanvas from './offCanvas';
 import titleBar from './titleBar';
 import topBar from './topBar';
 import progress from './progress';
+import menu from './menu';
 
 export default [
   {
@@ -74,6 +75,14 @@ export default [
     path: '/progress',
     components: {
       content: progress
+    }
+  },
+  {
+    name: 'menu',
+    displayName: 'Menu',
+    path: '/menu',
+    components: {
+      content: menu
     }
   },
 ];
