@@ -23,6 +23,7 @@
     "zurb"
   ],
   "dependencies": {
+    "foundation-icons": "^1.0.1",
     "vue": "^2.1.0"
   },
   "devDependencies": {

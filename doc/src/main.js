@@ -10,6 +10,8 @@ import VueRouter from 'vue-router'
 require('script!jquery')
 require('script!foundation-sites/dist/js/foundation.js')
 require('./loadFoundation.scss');
+require('foundation-icons/foundation-icons.css');
+
 
 import App from './App';
 
