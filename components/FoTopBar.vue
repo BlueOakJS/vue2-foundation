@@ -21,5 +21,5 @@ MIT Licensed
 <script>
 export default {
 	name: 'fo-top-bar'
-}
+};
 </script>

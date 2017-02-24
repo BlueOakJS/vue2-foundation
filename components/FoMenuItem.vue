@@ -13,6 +13,6 @@ MIT Licensed
 export default {
 	name: 'fo-menu-item',
 	props: [ 'to' ]
-}
+};
 </script>
 

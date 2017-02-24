@@ -81,10 +81,10 @@ content|Yes|The main content of your page.
   import FoOffCanvas from 'focomponents/FoOffCanvas';
   import FoButton from 'focomponents/FoButton';
 
-  module.exports = {
+  export default {
     components: {
       OptionsNote,
       FoOffCanvas, FoButton
     }
-  }
+  };
 </script>

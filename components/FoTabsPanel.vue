@@ -12,7 +12,7 @@ MIT Licensed
 	export default {
 		name: 'fo-tabs-panel',
 		props: [ 'id' ]
-	}
+	};
 </script>
 
 

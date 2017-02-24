@@ -72,5 +72,5 @@ export default {
 				this.offCanvasPlugin.close();
 		}
 	}
-}
+};
 </script>

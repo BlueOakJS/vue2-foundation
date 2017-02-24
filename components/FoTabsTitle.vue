@@ -15,5 +15,5 @@ MIT Licensed
 export default {
 	name: 'fo-tabs-title',
 	props: [ 'href' ]
-}
+};
 </script>

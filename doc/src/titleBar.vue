@@ -105,11 +105,11 @@ right|No|The content to display in the right-hand section.
 <script>
   import FoTitleBar from 'focomponents/FoTitleBar';
 
-  module.exports = {
+  export default {
     components: {
       FoTitleBar
     }
-  }
+  };
 </script>
 
 

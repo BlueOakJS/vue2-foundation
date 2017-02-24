@@ -134,13 +134,13 @@ right|No|The content to display in the right-hand section.
   import FoMenu from 'focomponents/FoMenu';
   import FoMenuItem from 'focomponents/FoMenuItem';
 
-  module.exports = {
+  export default {
     components: {
       FoTopBar, FoButton,
       FoMenu,
       FoMenuItem
     }
-  }
+  };
 </script>
 
 

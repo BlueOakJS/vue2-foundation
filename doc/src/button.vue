@@ -163,7 +163,7 @@ default| The content to display inside the button.
 <script>
   import FoButton from 'focomponents/FoButton';
 
-  module.exports = {
+  export default {
     components: {
       FoButton
     },
@@ -173,5 +173,5 @@ default| The content to display inside the button.
         window.alert(msg);
       }
     }
-  }
+  };
 </script>

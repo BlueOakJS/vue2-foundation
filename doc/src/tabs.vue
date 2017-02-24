@@ -498,10 +498,10 @@ default|No|The content that will display in the tab panel when it is open.
   import FoTabsPanel from 'focomponents/FoTabsPanel';
   import FoTabsTitle from '../../components/FoTabsTitle';
 
-  module.exports = {
+  export default {
     components: {
       OptionsNote,
       FoTabs, FoTabsContent, FoTabsPanel, FoTabsTitle
     }
-  }
+  };
 </script>

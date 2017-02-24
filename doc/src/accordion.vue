@@ -223,10 +223,10 @@ If `v-model` is used on this component, the bound property will be set to the cu
   import FoAccordion from 'focomponents/FoAccordion';
   import FoAccordionItem from 'focomponents/FoAccordionItem';
 
-  module.exports = {
+  export default {
     components: {
       OptionsNote,
       FoAccordion, FoAccordionItem
     }
-  }
+  };
 </script>

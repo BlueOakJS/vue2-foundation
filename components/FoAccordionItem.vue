@@ -44,5 +44,5 @@ export default {
 			return this.$el.classList.contains('is-active') ? 'down' : 'up';
 		}
 	}
-}
+};
 </script>

@@ -13,5 +13,5 @@ export default {
 	name: 'fo-button',
 
 	props: [ 'to' ]
-}
+};
 </script>

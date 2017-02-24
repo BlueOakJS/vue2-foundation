@@ -42,6 +42,6 @@ export default {
 			accordionItemComponent.$emit('input', currentState);
 		}
 	}
-}
+};
 </script>
 

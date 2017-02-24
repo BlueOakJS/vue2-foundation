@@ -137,9 +137,9 @@ default|No|The text to display inside the progress meter.
 <script>
   import FoProgress from 'focomponents/FoProgress';
 
-  module.exports = {
+  export default {
     components: {
       FoProgress
     }
-  }
+  };
 </script>

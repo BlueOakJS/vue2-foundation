@@ -4,13 +4,13 @@ MIT Licensed
 */
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Vue from 'vue';
+import VueRouter from 'vue-router';
 
-require('script!jquery')
-require('script!foundation-sites/dist/js/foundation.js')
-require('./loadFoundation.scss');
-require('foundation-icons/foundation-icons.css');
+import 'script!jquery';
+import 'script!foundation-sites/dist/js/foundation.js';
+import './loadFoundation.scss';
+import 'foundation-icons/foundation-icons.css';
 
 
 import App from './App';
@@ -29,6 +29,6 @@ new Vue({
 	el: '#app',
 	template: '<App/>',
 	components: {
-    App
-  }
-})
+    	App
+  	}
+});

@@ -35,7 +35,7 @@ var dataAttribute = {
 	dropdown: 'data-dropdown-menu',
 	drilldown: 'data-drilldown',
 	accordion: 'data-accordion-menu'
-}
+};
 
 export default {
 	name: 'fo-menu',
@@ -44,7 +44,7 @@ export default {
 	data: function() {
 		return {
 			menuType: null
-		}
+		};
 	},
 
 	created: function() {
@@ -239,6 +239,6 @@ export default {
 			return this.menuType == 'accordion' || this.vertical != undefined;
 		}
 	}
-}
+};
 </script>
 

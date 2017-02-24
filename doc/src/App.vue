@@ -24,7 +24,7 @@ export default {
   components: {
     FoOffCanvas, SideMenu
   }
-}
+};
 </script>
 
 <style>

@@ -152,9 +152,9 @@ default| The `<fo-button>` components to include in the button group.
   import FoButtonGroup from 'focomponents/FoButtonGroup';
   import FoButton from 'focomponents/FoButton';
 
-  module.exports = {
+  export default {
     components: {
       FoButtonGroup, FoButton
     }
-  }
+  };
 </script>

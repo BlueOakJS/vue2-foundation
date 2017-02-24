@@ -46,9 +46,9 @@ default|No|The `<fo-accordion-item>` components that represent the panes.
 <script>
   import FoButton from 'focomponents/FoButton';
 
-  module.exports = {
+  export default {
     components: {
       FoButton
     }
-  }
+  };
 </script>

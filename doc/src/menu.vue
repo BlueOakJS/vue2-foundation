@@ -783,7 +783,7 @@ default|Yes|The title of the menu item.
   import FoMenu from 'focomponents/FoMenu';
   import FoMenuItem from 'focomponents/FoMenuItem';
 
-  module.exports = {
+  export default {
     name: 'menu',
 
     components: {
@@ -826,5 +826,5 @@ default|Yes|The title of the menu item.
         this.m3Options.autoHeight = !this.m3Options.autoHeight;
       }
     }
-  }
+  };
 </script>

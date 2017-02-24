@@ -46,6 +46,5 @@ export default {
 			return activePanel && activePanel.firstChild.hash;
 		}
 	}
-}
+};
 </script>
-

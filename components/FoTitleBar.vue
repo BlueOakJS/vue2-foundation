@@ -19,5 +19,5 @@ MIT Licensed
 <script>
 export default {
 	name: 'title-bar'
-}
+};
 </script>

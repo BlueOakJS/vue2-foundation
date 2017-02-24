@@ -9,6 +9,6 @@ export default {
 		$(this.toggler).data('toggle', this.topBarId);
 
 		// hideFor, animate
-		var elem = new Foundation.ResponsiveToggle(element, this.r esponsiveToggleOptions);
+		this.elem = new Foundation.ResponsiveToggle($(el), this.responsiveToggleOptions);
 	}
-}
+};
