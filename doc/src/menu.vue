@@ -379,7 +379,6 @@ To create dropdown menus, nest a new `<fo-menu>` inside the `<fo-menu>`. You can
 
 </div>
 <div class="example">
-
 <fo-menu @input="logInput" @show="logShow" @hide="logHide" type="dropdown">
   <fo-menu id="1" to="#Item-1" title="Item 1">
     <fo-menu-item to="#Item-1A" id="3">Item 1A</fo-menu-item>
@@ -406,8 +405,8 @@ To create dropdown menus, nest a new `<fo-menu>` inside the `<fo-menu>`. You can
   <fo-menu-item to="#Item-3">Item 3</fo-menu-item>
   <fo-menu-item to="#Item-4">Item 4</fo-menu-item>
 </fo-menu>
-
 </div>
+
 <div class="markdown-body">
 
 ---
@@ -489,7 +488,6 @@ Any ` <fo-menu-item to="menu">` will function like a normal link.
 
 </div>
 <div class="example">
-
 <fo-menu @input="logInput" @open="logOpen" @closed="logClosed" @hide="logHide" style="width: 200px" id="m1" type="drilldown">
   <fo-menu v-model="menu1" title="Item 1">
     <fo-menu title="Item 1A">
@@ -522,8 +520,8 @@ Any ` <fo-menu-item to="menu">` will function like a normal link.
   </fo-menu>
   <fo-menu-item to="#Item-4">Item 4</fo-menu-item>
 </fo-menu>
-
 </div>
+
 <div class="markdown-body">
 
 ## autoHeight
@@ -593,7 +591,6 @@ Any ` <fo-menu-item to="menu">` will function like a normal link.
 
 </div>
 <div class="example">
-
 <fo-menu @scrollme="logScrollme" @open="logOpen" @hide="logHide" :options="{scrollTop: true}" style="width: 200px" id="m2" type="drilldown">
    <fo-menu-item to="menu">Item</fo-menu-item>
    <fo-menu-item to="menu">Item</fo-menu-item>
@@ -641,8 +638,8 @@ Any ` <fo-menu-item to="menu">` will function like a normal link.
   </fo-menu>
    <fo-menu-item to="menu">Item</fo-menu-item>
 </fo-menu>
-
 </div>
+
 <div class="markdown-body">
 
 ---
@@ -686,8 +683,8 @@ Any ` <fo-menu-item to="menu">` will behave like a standard link. However, any n
 ```
 
 </div>
-<div class="example">
 
+<div class="example">
 <fo-menu @input="logInput" @show="logShow" @hide="logHide" type="accordion">
   <fo-menu title="Item 1">
     <fo-menu title="Item 1A">
@@ -705,8 +702,8 @@ Any ` <fo-menu-item to="menu">` will behave like a standard link. However, any n
   </fo-menu>
    <fo-menu-item to="menu">Item 3</fo-menu-item>
 </fo-menu>
-
 </div>
+
 <div class="markdown-body">
 
 

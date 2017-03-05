@@ -19,22 +19,20 @@ In the below example, our top bar includes a [dropdown menu](#menu), along with 
 
 ```html
 <fo-top-bar>
-  <fo-menu slot="left">
+  <fo-menu slot="left" type="dropdown">
     <fo-menu-item>Site Title</fo-menu-item>
     <fo-menu title="One">
-      <fo-menu-item to="">One</fo-menu-item>
-      <fo-menu-item to="">Two</fo-menu-item>
-      <fo-menu-item to="">Three</fo-menu-item>
+      <fo-menu-item to="#">One</fo-menu-item>
+      <fo-menu-item to="#">Two</fo-menu-item>
+      <fo-menu-item to="#">Three</fo-menu-item>
     </fo-menu>
-    <fo-menu-item to="">Two</fo-menu-item>
-    <fo-menu-item to="">Three</fo-menu-item>
+    <fo-menu-item to="#">Two</fo-menu-item>
+    <fo-menu-item to="#">Three</fo-menu-item>
   </fo-menu>
-  <div slot="right">
-    <ul class="menu">
-      <li><input type="search" placeholder="Search"></li>
-      <li><fo-button>Search</fo-button></li>
-    </ul>
-  </div>
+  <fo-menu slot="right">
+    <fo-menu-item><input type="search" placeholder="Search"></fo-menu-item>
+    <fo-menu-item><fo-button>Search</fo-button></fo-menu-item>
+  </fo-menu>
 </fo-top-bar>
 ```
 
@@ -52,51 +50,48 @@ In the below example, our top bar includes a [dropdown menu](#menu), along with 
     <fo-menu-item to="#">Two</fo-menu-item>
     <fo-menu-item to="#">Three</fo-menu-item>
   </fo-menu>
-  <div slot="right">
-    <ul class="menu">
-      <li><input type="search" placeholder="Search"></li>
-      <li><fo-button>Search</fo-button></li>
-    </ul>
-  </div>
+  <fo-menu slot="right">
+    <fo-menu-item><input type="search" placeholder="Search"></fo-menu-item>
+    <fo-menu-item><fo-button>Search</fo-button></fo-menu-item>
+  </fo-menu>
 </fo-top-bar>
 
 </div>
 <div class="markdown-body">
 
-## Additional classes
+---
 
-Any of the CSS classes documented by Foundation may also be passed on `<fo-top-bar>`.  See the [Foundation documentation](http://foundation.zurb.com/sites/docs/top-bar.html#stacking) for a complete reference.
+## Stacking
 
-### Stacking
+By default, the two sections of a top bar will stack on top of each other on small screens. This can be changed by adding the class `.stacked-for-medium` or `.stacked-for-large`.
 
-</div>
-<div class="example">
-
+```html
 <fo-top-bar class="stacked-for-medium">
-  <div slot="left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">Site Title</li>
-      <li>
-        <a href="#">One</a>
-        <ul class="menu vertical">
-          <li><a href="#">One</a></li>
-          <li><a href="#">Two</a></li>
-          <li><a href="#">Three</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Two</a></li>
-      <li><a href="#">Three</a></li>
-    </ul>
-  </div>
-  <div slot="right">
-    <ul class="menu">
-      <li><input type="search" placeholder="Search"></li>
-      <li><fo-button>Search</fo-button></li>
-    </ul>
-  </div>
+  <!-- ... -->
 </fo-top-bar>
+```
 
 </div>
+
+<div class="example">
+<fo-top-bar class="stacked-for-medium">
+  <fo-menu slot="left" type="dropdown">
+    <fo-menu-item>Site Title</fo-menu-item>
+    <fo-menu title="One">
+      <fo-menu-item to="#">One</fo-menu-item>
+      <fo-menu-item to="#">Two</fo-menu-item>
+      <fo-menu-item to="#">Three</fo-menu-item>
+    </fo-menu>
+    <fo-menu-item to="#">Two</fo-menu-item>
+    <fo-menu-item to="#">Three</fo-menu-item>
+  </fo-menu>
+  <fo-menu slot="right">
+    <fo-menu-item><input type="search" placeholder="Search"></fo-menu-item>
+    <fo-menu-item><fo-button>Search</fo-button></fo-menu-item>
+  </fo-menu>
+</fo-top-bar>
+</div>
+
 <div class="markdown-body">
 
 

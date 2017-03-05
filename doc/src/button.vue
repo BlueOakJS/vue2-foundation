@@ -28,12 +28,10 @@ Buttons are convenient tools when you need more traditional actions. To that end
 </div>
 
 <div class="example">
-
 <fo-button to="about">Learn More</fo-button>
 <fo-button :to="{ name: 'button', params: { id: 123 }}" class="button">User 123</fo-button>
 <fo-button class="success" @click.native="alert('Save pressed')">Save</fo-button>
 <fo-button class="alert" @click.native="alert('Delete pressed')">Delete</fo-button>
-
 </div>
 
 <div class="markdown-body">
