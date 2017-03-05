@@ -12,6 +12,7 @@ import titleBar from './titleBar';
 import topBar from './topBar';
 import progress from './progress';
 import menu from './menu';
+import dropdown from './dropdown';
 
 export default [
   {
@@ -92,6 +93,14 @@ export default [
     path: '/menu',
     components: {
       content: menu
+    }
+  },
+  {
+    name: 'dropdown',
+    displayName: 'Dropdown',
+    path: '/dropdown',
+    components: {
+      content: dropdown
     }
   },
 ];
