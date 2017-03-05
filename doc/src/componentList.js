@@ -2,6 +2,7 @@
 Copyright (c) 2016-2017 PointSource, LLC.
 MIT Licensed
 */
+import home from './home';
 import accordion from './accordion';
 import tabs from './tabs';
 import button from './button';
@@ -13,6 +14,14 @@ import progress from './progress';
 import menu from './menu';
 
 export default [
+  {
+    name: 'home',
+    displayName: 'Home',
+    path: '/',
+    components: {
+      content: home
+    }
+  },
   {
     name: 'accordion',
     displayName: 'Accordion',

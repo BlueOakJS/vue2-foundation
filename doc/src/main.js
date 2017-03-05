@@ -21,6 +21,10 @@ const router = new VueRouter({
 	routes: componentList
 });
 
+router.afterEach((to, from) => {
+	window.scroll(0, 0);
+});
+
 Vue.use(VueRouter);
 
 /* eslint-disable no-new */
