@@ -55,7 +55,7 @@ See the [Foundation documentation](http://foundation.zurb.com/sites/docs/accordi
 |side|String|No|Which side of the viewport to open the menu from.  Can be one of `position-left`, `position-right`, `position-top`, or `position-bottom`.  Defaults to `position-left`.
 |revealBreakpoint|String|No|The left- and right-hand off-canvas panes can be set to be persistent on larger screens like a sidebar.  Set this prop to either `reveal-for-medium` or `reveal-for-large` to determine at what breakpoint the off-canvas will default open.
 |options|Object|No|A plain object with settings to override the default options. See the [Foundation documentation](http://foundation.zurb.com/sites/docs/off-canvas.html#js-options) for a complete reference to the options available to customize this component.  <options-note/>
-|value|String|No|A string indicating the current state of the `<off-canvas>`, either `open` or `closed`.
+|value|Boolean|No|Indicates the current state of the `<fo-off-canvas>`, either `true` indicating open, or `false` indicating closed.
 
 #### Events
 
@@ -63,7 +63,7 @@ See the [Foundation documentation](http://foundation.zurb.com/sites/docs/accordi
 |---|---
 opened|Fires when the off-canvas menu opens.
 closed|Fires when the off-canvas menu closes.
-input|Fires when the off-canvas menu opens or closes.  The parameter will be `open` or `closed` indicating which state the off-canvas menu is now in.
+input|Fires when the off-canvas menu opens or closes.  The parameter will be `true` or `false` indicating which state the off-canvas menu is now in.
 
 #### Slots
 

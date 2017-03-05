@@ -31,9 +31,9 @@ export default {
 
   	methods: {
 		setState: function() {
-			if (this.value && this.value != this.getAccordionState()) {
+			if (this.value != undefined && this.value != this.getAccordionState()) {
 				var accordionContentNode = $(this.$el.children[1]);
-				if (this.value == 'down')
+				if (this.value)
 					this.$parent.accordion.down(accordionContentNode);
 				else
 					this.$parent.accordion.up(accordionContentNode);
@@ -41,7 +41,7 @@ export default {
 		},
 
 		getAccordionState: function() {
-			return this.$el.classList.contains('is-active') ? 'down' : 'up';
+			return this.$el.classList.contains('is-active');
 		}
 	}
 };

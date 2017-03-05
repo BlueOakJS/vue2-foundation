@@ -192,7 +192,7 @@ default|Yes|The `<fo-accordion-item>` components that represent the panes.
 
 |Property|Type|Required|Description
 |---|---|---|---
-|value|String|No|A string indicating what the current state of the accordion is, either `down` or `up`.
+|value|Boolean|No|Indicates what the current state of the accordion is, either `true` indicating open (down) or `false` indicating closed (up).
 
 
 #### Events
@@ -201,7 +201,7 @@ default|Yes|The `<fo-accordion-item>` components that represent the panes.
 |---|---
 down| Fires when the tab is done opening.
 up| Fires when the tab is done collapsing up.
-input| Fires when the tab is done opening or collapsing up.  The parameter will be `down` or `up` indicating which state the panel is now in.
+input| Fires when the tab is done opening or collapsing up.  The parameter will be `true` or `false` indicating which state the panel is now in.
 
 #### Slots
 

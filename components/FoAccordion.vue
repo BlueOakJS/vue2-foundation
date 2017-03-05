@@ -36,7 +36,7 @@ export default {
 			var accordionItemNode = target.parent()[0];
 			var accordionItemComponent = accordionItemNode.__vue__;
 
-			var currentState = accordionItemNode.classList.contains('is-active') ? 'down' : 'up';
+			var currentState = accordionItemNode.classList.contains('is-active');
 
 			accordionItemComponent.$emit(event.type);
 			accordionItemComponent.$emit('input', currentState);

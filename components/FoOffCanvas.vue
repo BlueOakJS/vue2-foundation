@@ -57,18 +57,18 @@ export default {
 
 		handleOpened: function() {
 			this.$emit('opened');
-			this.$emit('input', 'open');
+			this.$emit('input', true);
 		},
 
 		handleClosed: function() {
 			this.$emit('closed');
-			this.$emit('input', 'closed');
+			this.$emit('input', false);
 		},
 
 		setOffCanvasState: function() {
-			if (this.value == 'open')
+			if (this.value)
 				this.offCanvasPlugin.open();
-			else if (this.value == 'closed')
+			else
 				this.offCanvasPlugin.close();
 		}
 	}
