@@ -72,6 +72,10 @@ input|Fires when the off-canvas menu opens or closes.  The parameter will be `tr
 menu|Yes|The off-canvas content.
 content|Yes|The main content of your page.
 
+#### Usage with v-model
+
+If `v-model` is used on this component, the bound property will be set to the current state of the `<fo-off-canvas>` (either `true` or `false`).  The property value can also be used to toggle the state of the `<fo-off-canvas>`.
+
 </div>
 
 </template>

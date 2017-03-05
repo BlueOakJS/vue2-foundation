@@ -212,7 +212,7 @@ content|No|Content to display in the accordion pane.
 
 #### Usage with v-model
 
-If `v-model` is used on this component, the bound property will be set to the current state of the `<accordion-item>` (either `down` or `up`).  The property value can also be used to toggle the state of the `<accordion-item>`.
+If `v-model` is used on this component, the bound property will be set to the current state of the `<accordion-item>` (either `true` or `false`).  The property value can also be used to toggle the state of the `<accordion-item>`.
 
 </div>
 
