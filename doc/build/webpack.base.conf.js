@@ -10,7 +10,7 @@ var cssSourceMapDev = (env === 'development' && config.dev.cssSourceMap)
 var cssSourceMapProd = (env === 'production' && config.build.productionSourceMap)
 var useCssSourceMap = cssSourceMapDev || cssSourceMapProd
 var loaders = utils.cssLoaders({ sourceMap: useCssSourceMap })
-loaders.md = 'vue-markdown-loader'
+loaders.md = 'markdownit-loader'
 
 
 module.exports = {
