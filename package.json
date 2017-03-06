@@ -24,7 +24,6 @@
     "zurb"
   ],
   "dependencies": {
-    "foundation-icons": "^1.0.1",
     "vue": "^2.1.0"
   },
   "devDependencies": {
@@ -51,6 +50,7 @@
     "express": "^4.13.3",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.10.0",
+    "foundation-icons": "^1.0.1",
     "friendly-errors-webpack-plugin": "^1.1.2",
     "function-bind": "^1.0.2",
     "html-webpack-plugin": "^2.8.1",
