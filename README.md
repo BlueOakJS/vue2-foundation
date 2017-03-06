@@ -6,7 +6,8 @@ Vue 2.x component wrappers for Foundation 6 widgets
 
 ### Install the package.
 
-`npm i vue2-foundation node-sass`
+`npm i vue2-foundation --save`
+`npm i node-sass --save-dev`
 
 ### Add an alias in your webpack configuration for the components:
 
