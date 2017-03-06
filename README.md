@@ -24,7 +24,7 @@ module.exports = {
 ### Load the Foundation Javascript and SCSS code:
 
 loadFoundation.scss:
-``` CSS
+``` scss
 @import '../node_modules/foundation-sites/scss/foundation';
 @include foundation-everything()
 ```
@@ -38,7 +38,7 @@ require('./loadFoundation.scss');
 
 ### Import and use the components in a .vue file:
 
-``` html
+``` vue
 <template>
 	<fo-button :to="{ name: 'settings' }">Settings</fo-button>
 </template>
