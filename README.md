@@ -6,8 +6,10 @@ Vue 2.x component wrappers for Foundation 6 widgets
 
 ### Install the package.
 
-`npm i vue2-foundation --save`
-`npm i node-sass --save-dev`
+```
+npm i vue2-foundation jquery --save
+npm i node-sass sass-loader --save-dev
+```
 
 ### Add an alias in your webpack configuration for the components:
 
@@ -31,8 +33,8 @@ loadFoundation.scss:
 
 main.js:
 ``` javascript
-require('script!jquery')
-require('script!foundation-sites/dist/js/foundation.js')
+require('script-loader!jquery')
+require('script-loader!foundation-sites/dist/js/foundation.js')
 require('./loadFoundation.scss');
 ```
 
